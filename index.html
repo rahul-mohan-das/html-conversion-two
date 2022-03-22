@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Filter</h1>
+      <p class="search-label">SEARCH BY KEYWORD</p>
+      <div class="search">
+        <img class="img" src="images/search-logo.png" />
+        <input
+          class="search-box"
+          type="text"
+          placeholder="        Search jobs"
+        />
+      </div>
+      <p class="search-label view">VIEW</p>
+      <label class="box">
+        <input type="radio" name="radio" /><span class="mask"></span>All job
+        posts
+      </label>
+      <label class="box">
+        <input type="radio" name="radio" /><span class="mask"></span>Active job
+        posts
+      </label>
+      <label class="box">
+        <input type="radio" name="radio" /><span class="mask"></span>Archived
+        job posts
+      </label>
+      <p class="search-label include">INCLUDE</p>
+      <label class="boxtwo">
+        <input type="checkbox" />
+        <span class="masktwo"></span>Jobs Shared with me
+      </label>
+      <button class="save" type="submit">Save changes</button>
+    </div>
+  </body>
+</html>
