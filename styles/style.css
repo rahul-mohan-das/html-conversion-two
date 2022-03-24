@@ -16,6 +16,7 @@ body {
   box-shadow: -10px -10px 0 #201e3f;
 }
 .heading {
+  display: inline-block;
   font-family: serif;
   color: #b9b5db;
 }
@@ -159,12 +160,22 @@ body {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
-.save{
-  background-color: #FFBB56;
-  border:none;
+.save {
+  background-color: #ffbb56;
+  border: none;
   border-radius: 5px;
-  width:80%;
-  height:30px;
+  width: 80%;
+  height: 30px;
   margin: 50px 0 30px 0;
-  color:#201e3f;
+  color: #201e3f;
+}
+.close {
+  float: right;
+  border:none;
+  background-color:#3b3b68;
+  color: #b9b5db;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.close:hover{
+  color:#ffbb56
 }
